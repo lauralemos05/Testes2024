@@ -13,8 +13,13 @@
         let userName = prompt("Qual seu nome?", "Digite aqui.");
         if (userName) {
             alert("Que bom conhece-lo(a)," + userName + ".");
-
+            SmileRock();
         }
     }
+    function SmileRock() {
+        let srock = document.getElementById('rockImg');
+        srock.src = 'rock_happy.png';
+    }
+        
   </script>
 </html>  
